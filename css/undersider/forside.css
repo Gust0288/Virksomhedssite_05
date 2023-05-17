@@ -2,3 +2,16 @@ main {
     background-color: #555;
     height: 500px;
 }
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header img {
+    grid-column: 1;
+    grid-row: 1;
+}
+header nav {
+    grid-row: 2;
+}
