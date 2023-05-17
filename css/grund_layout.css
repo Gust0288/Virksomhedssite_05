@@ -9,17 +9,21 @@ body{
 /* nav */
 
 nav {
-    background-color: #333;
+    background-color: #264c44;
+    
   }
   
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
   
   nav ul li {
     display: inline-block;
+    width: 25%;
   }
   
   nav ul li a {
@@ -27,10 +31,12 @@ nav {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
+    /* border: solid rgb(255, 255, 255) 1px; */
+    text-align: center;
   }
   
   nav ul li a:hover {
-    background-color: #555;
+    background-color: #8e9426;
   }
   
 /* nav */
@@ -38,8 +44,16 @@ nav {
 /* Footer */
 
 footer {
-    background-color: #110c0c;
-    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+    background-color: #fdfdfd;
+    height: auto;
+    
+}
+
+footer h2 {
+  grid-column: 2;
+  text-align: center;
 }
 
 /* Footer */
