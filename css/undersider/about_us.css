@@ -29,15 +29,21 @@ main {
     padding-right: 3vw;
 }
 
+section p:last-child{
+    font-size: 2vw;
+}
+
 section p:nth-child(-n+3){
     font-style: italic
 }
 
 .filler1{
-    width: 100%;
+    width: 105%;
 }
 
-#OHLogo{
+#OHLogo
+
+/* #OHLogo{
     text-align: center;
     padding: 3vw;
     margin: 3vw;
@@ -46,6 +52,10 @@ section p:nth-child(-n+3){
     grid-column: 2/3;
     border-radius: 50%;
     border: solid rgb(200, 200, 200) 3px;
+} */
+
+section h2{
+    text-align: center;
 }
 
 #logoGrid{
@@ -57,7 +67,15 @@ h1, h2, p{
     color: white;
 }
 
+h2{
+    font-size: 2vw;
+}
+
 .grid1-2 section{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 1.5vw;
+}
+
+footer h1,h2,p{
+    color: black;
 }
