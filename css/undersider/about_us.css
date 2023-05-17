@@ -1,8 +1,44 @@
 main {
     background-color: #555;
-    height: 500px;
+    height: auto;
 }
 
-.grid1-3{
-    
+.om-os{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.grid1-2{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column: 2/3;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    gap: 3vw;
+    text-align: center;
+    padding-top: 5vw;
+}
+
+.grid1-2 section{
+    margin-top: 1vw;
+}
+
+.filler1{
+    width: 100%;
+}
+
+#OHLogo{
+    text-align: center;
+    padding: 3vw;
+    margin: 3vw;
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    border-radius: 50%;
+    border: solid rgb(200, 200, 200) 3px;
+}
+
+#logoGrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
 }
