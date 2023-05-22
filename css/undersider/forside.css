@@ -75,7 +75,7 @@ video{
 #velkommen{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    color: azure;
+    color: #efe2c6;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -159,7 +159,7 @@ video{
 #menu_index_tekst{
     grid-column: 2;
     text-align: center;
-    color: azure;
+    color: #efe2c6;    
     padding-top: 3vw;
     font-family: "cormorantGaramondBold";
     text-decoration: none;
@@ -170,7 +170,7 @@ video{
 #menu_index_tekst a{
     text-decoration: none;
     border-style: solid;
-    color: azure;
+    color: #efe2c6;    
     padding: 0.5vw;
     border-radius: 15px;
     
