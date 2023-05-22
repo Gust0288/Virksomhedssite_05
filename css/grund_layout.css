@@ -120,30 +120,27 @@ footer {
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
-    font-family: "crimsonBold";
+    font-family: "crimsonReg";
 }
 
 footer h3 {
   grid-column: 2;
   text-align: center;
-  
+  padding-top: 1vw;
 }
 footer #h3_1 {
   grid-column: 1;
   text-align: center;
-  
+  padding-top: 1vw;
 }
-footer #h3_2 {
-  grid-column: 3;
-  text-align: center;
-  
-  list-style-type: none;
-}
+
 footer #h3_2{
   display: flex;
   justify-content: space-evenly;
   padding-top: 1vw;
-
+  grid-column: 3;
+  text-align: center;
+  list-style-type: none;
 
 }
 
