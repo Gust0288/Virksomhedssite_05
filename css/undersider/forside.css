@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "crimsonReg";
+    src: url(/fonts/crimson-text/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "crimsonBold";
+    src: url(/fonts/crimson-text/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondReg";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondItalic";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Italic.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondBold";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf);
+}
+
+
+
 body{
     width: 100%;
     height: 100vh;
@@ -32,20 +59,18 @@ header nav {
     grid-row: 2;
 }
 
-#video{
+#video1{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    /* background-color: #121f42; */
+}
 
-
+video{
     padding-top: 5vw;
-   
-}
-iframe{
     width: 100%;
+    height: auto;
     grid-column: 2;
-    grid-row: 1/3;
 }
+
 
 #velkommen{
     display: grid;
@@ -54,6 +79,7 @@ iframe{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     margin-top: 5vw;
     margin-bottom: 10vw;
+    text-align: center;
 }
 
 #velkommen_tekst{

@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "crimsonReg";
+  src: url(/fonts/crimson-text/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: "crimsonBold";
+  src: url(/fonts/crimson-text/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+  font-family: "cormorantGaramondReg";
+  src: url(/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cormorantGaramondItalic";
+  src: url(/fonts/cormorant-garamond/CormorantGaramond-Italic.ttf);
+}
+
+@font-face {
+  font-family: "cormorantGaramondBold";
+  src: url(/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -37,11 +62,29 @@ nav {
     padding: 10px 20px;
     /* border: solid rgb(255, 255, 255) 1px; */
     text-align: center;
+    position: relative;
+    font-family: "cormorantGaramondBold";
   }
   
   nav ul li a:hover {
-    color: #8e9426;
+    color: #fff;
   }
+  nav ul li a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  nav ul li a:hover::before{
+    transform: scaleX(1);
+  }
+
   
 /* nav */
 
