@@ -65,7 +65,7 @@ header nav {
 }
 
 video{
-    padding-top: 5vw;
+    padding-top: 2.5vw;
     width: 100%;
     height: auto;
     grid-column: 2;
@@ -76,31 +76,42 @@ video{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     color: azure;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
     margin-top: 5vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
     text-align: center;
 }
 
 #velkommen_tekst{
     grid-column: 2;
+    border-radius: 1.5vw;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.1px);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: "cormorantGaramondItalic";
 }
 #facebook{
     display: grid;
     grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    /* margin-top: 10vw; */
+    
 }
 #facebook img{
     grid-column: 2;
     width: 100%;
     height: auto;
+    margin-top: 2.5vw;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+
 }
 .fb-page{
     grid-column: 3;
     width: 100%;
     padding-left: 3vw;
-    padding-top: 2vw;
+   
 
 }
 
@@ -109,14 +120,14 @@ video{
     grid-template-columns: 1fr 5fr 1fr;
     
 
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
 }
 #filler2{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     
-    margin-top: 10vw;
+    margin-top: 3vw;
    
 
 }
@@ -126,30 +137,56 @@ video{
     height: auto;
     grid-column: 2;
     margin-top: 2vw;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+      
 }
 #filler2 img{
     width: 100%;
     height: auto;
     grid-column: 2;
-    margin-top: 2vw;
     margin-bottom: 2vw;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    
 }
 
 #menu_index{
     display: grid;
     grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
-    margin-top: 2vw;
-
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-
+   
 }
 #menu_index_tekst{
     grid-column: 2;
     text-align: center;
     color: azure;
+    padding-top: 3vw;
+    font-family: "cormorantGaramondBold";
+    text-decoration: none;
+    font-family: "cormorantGaramondItalic";
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
     
+}
+#menu_index_tekst a{
+    text-decoration: none;
+    border-style: solid;
+    color: azure;
+    padding: 0.5vw;
+    border-radius: 15px;
+    
+}
+#menu_index_tekst a:hover{
+    color: #8a880f;
+}
+
+#menu_index_tekst h3{
+    margin-top: 2vw;
 }
 #menu_index img{
     grid-column: 3;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    
 }
