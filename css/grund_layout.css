@@ -78,7 +78,6 @@ nav {
     color: #efe2c6;
     text-decoration: none;
     padding: 10px 20px;
-    /* border: solid rgb(255, 255, 255) 1px; */
     text-align: center;
     position: relative;
     font-family: "cormorantGaramondBold";
@@ -87,7 +86,8 @@ nav {
   nav ul li a:hover {
     color: #efe2c6;
   }
-  nav ul li a::before {
+  
+  a::before {
     content: "";
     position: absolute;
     display: block;
@@ -95,13 +95,14 @@ nav {
     height: 2px;
     bottom: 0;
     left: 0;
-    color: #efe2c6;
+    background-color: #efe2c6;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
-  nav ul li a:hover::before{
+  a:hover::before {
     transform: scaleX(1);
   }
+    
 
   
 /* nav */
