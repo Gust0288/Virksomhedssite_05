@@ -136,11 +136,13 @@ footer #h3_1 {
 
 footer #h3_2{
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding-top: 1vw;
+  padding-left: 10vw;
   grid-column: 3;
   text-align: center;
   list-style-type: none;
+  gap: 1em;
 
 }
 
