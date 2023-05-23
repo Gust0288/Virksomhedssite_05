@@ -21,8 +21,8 @@ main {
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
     gap: 4vw;
     padding-top: 10vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    justify-content: center;
+
 }
 
 #udvalg a{
