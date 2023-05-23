@@ -1,4 +1,45 @@
+body{
+    background-image: url(/img/background_bar.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 main {
-    background-color: #555;
-    height: 500px;
+    width: auto;
+    height: auto;
+}
+
+#background_opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: auto;
+}
+
+#udvalg{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+    gap: 4vw;
+    padding-top: 10vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#udvalg a{
+    background-color: yellowgreen;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+#pdf-holder{
+    width: auto;
+    height: 700px;
+    background-color: yellow;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 1%;
+    
 }
