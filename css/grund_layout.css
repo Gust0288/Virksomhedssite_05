@@ -145,6 +145,80 @@ footer #h3_2{
   gap: 1em;
 
 }
+.toggle-btn {
+  display: none; /* Skjul knappen som standard */
+}
 
 /* Footer */
+
+@media (max-width: 600px) {
+
+  footer #h3_2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 1vw;
+    padding-left: 3vw;
+    grid-column: 3;
+    text-align: center;
+    list-style-type: none;
+    gap: 1em;
+  
+  }
+  .toggle-btn {
+    display: flex;
+    position: relative;
+    left: 46.3vw;
+    top: 3vw;
+    width: 7vw;
+    height: auto;
+    background-color: transparent;
+    border: none;
+   
+    
+    /* Vis knappen, når viewporten maksimalt er 600px */
+    
+
+  }
+  .toggle-btn:hover{
+    filter: brightness(200%);
+    cursor: grab;
+  }
+
+  .main-menu {
+    display: contents; /* Fjern ".main-menu"-boksen fra ligningen, når viewporten maksimalt er 600px, men behold børnene, så disse deltager i flex-kontekten */
+  }
+
+  .main-menu ul {
+    display: none;
+    
+     /* Fjern menu-listen som standard */
+  }
+
+  .main-menu.shown ul {
+    /* Vis menu-listen, når klassen ".shown" er til stede */
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    justify-content: center;
+    
+  }
+  nav ul li a{
+    text-align: center;
+  }
+
+}
+
+
+
+
 
