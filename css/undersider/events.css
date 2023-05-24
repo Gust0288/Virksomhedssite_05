@@ -1,3 +1,6 @@
+@media (min-width: 600px) {
+
+
 
 body{
     width: 100%;
@@ -81,4 +84,108 @@ main {
     margin: 0;
     margin-left: 2vw;
 }
+
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/background_bar.webp);    
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main {
+    
+    
+    height: auto;
+}
+
+
+
+#event_all{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#event_booking{
+    margin-bottom: 5vw;
+    padding-top: 5vw;
+}
+#event_booking img{
+    width: 110%;
+    height: auto;
+    margin-top: 2.5vw;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin-bottom: 2vw;
+}
+
+#event_booking_tekst{
+    color: #efe2c6;
+    padding-top: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-family: "cormorantGaramondItalic";
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.1px);
+    border-radius: 1.5vw;
+    margin: 0;
+}
+#event_booking_tekst h1{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+#event_booking_tekst p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+
+}
+
+#div_form{
+    padding-bottom: 5vw;
+    color: #efe2c6;}
+
+#form1{
+    margin-left: 3vw;
+}
+
+#event_info{
+    grid-column: 3;
+    grid-row: 1;
+    color: #efe2c6;
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 0vw;
+    padding-right: 3vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.1px);
+    border-radius: 1.5vw;
+    margin: 0;
+    margin-left: 2vw;
+}
+
+@media (max-width: 600px) {
+
+#event_info{
+
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+
+
+}
+
+#event_booking_tekst{
+    
+    padding-bottom: 5vw;
+}
+
+#event_booking img{
+    width: 100%;
+}
+
+}
+
 
