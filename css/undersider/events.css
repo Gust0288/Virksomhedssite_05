@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "crimsonReg";
+    src: url(/fonts/crimson-text/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "crimsonBold";
+    src: url(/fonts/crimson-text/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondReg";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondItalic";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Italic.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondBold";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf);
+}
+
+
+
+
 @media (min-width: 600px) {
 
 
@@ -46,7 +74,7 @@ main {
     padding-top: 4vw;
     padding-right: 2vw;
     padding-left: 2vw;
-    font-family: "cormorantGaramondItalic";
+    font-family: "crimsonReg";
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(0.1px);
     border-radius: 1.5vw;
@@ -83,6 +111,7 @@ main {
     border-radius: 1.5vw;
     margin: 0;
     margin-left: 2vw;
+    font-family: "cormorantGaramondReg";
 }
 
     
@@ -128,7 +157,7 @@ main {
     padding-top: 1vw;
     padding-right: 2vw;
     padding-left: 2vw;
-    font-family: "cormorantGaramondItalic";
+    font-family: "crimsonReg";
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(0.1px);
     border-radius: 1.5vw;
@@ -139,6 +168,7 @@ main {
     font-weight: bold;
 }
 #event_booking_tekst p{
+    font-family: "cormorantGaramondItalic";
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 
 }
