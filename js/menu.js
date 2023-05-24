@@ -1,7 +1,6 @@
 const vin = document.querySelector("#vinKnap");
 const cocktails = document.querySelector("#cocktailsKnap");
 const snacks = document.querySelector("#snacksKnap");
-const holder = document.querySelector("#pdf-holder");
 
 const vinPdf = document.querySelector("#vinPdf");
 const cocktailsPdf = document.querySelector("#cocktailsPdf");
@@ -20,7 +19,6 @@ function vinMenu(){
 
     vin.removeEventListener("click", vinMenu);
 
-    holder.classList.remove("hide");
     vinPdf.classList.remove("hide");
 
     cocktails.addEventListener("click", cocktailsMenu);
@@ -33,12 +31,10 @@ function cocktailsMenu(){
 
     cocktails.removeEventListener("click", cocktailsMenu);
 
-    holder.classList.remove("hide");
     cocktailsPdf.classList.remove("hide");
 
     vin.addEventListener("click", vinMenu);
     snacks.addEventListener("click", snacksMenu);
-
 }
 
 function snacksMenu(){
@@ -47,7 +43,6 @@ function snacksMenu(){
 
     snacks.removeEventListener("click", snacksMenu)
 
-    holder.classList.remove("hide");
     snacksPdf.classList.remove("hide");
 
     vin.addEventListener("click", vinMenu);
@@ -58,5 +53,4 @@ function hideAll(){
     vinPdf.classList.add("hide");
     cocktailsPdf.classList.add("hide");
     snacksPdf.classList.add("hide");
-    holder.classList.add("hide");
 }

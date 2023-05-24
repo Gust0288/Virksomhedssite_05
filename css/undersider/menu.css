@@ -58,29 +58,30 @@ button{
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
     color: #efe2c6;
-    /* border: double #efe2c6 3px;
-    border-radius: 1.5vw; */
     border: none;
     border-radius: 1.5vw;
     text-align: center;
     font-size: 3.5vw;
     cursor: pointer;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-family: "cormorantGaramondBold";
+    font-size: 4vw;
 }
 
 #pdf-holder{
     width: auto;
     height: 700px;
-    background-color: yellow;
     width: 90%;
-    margin-top: 5%;
     margin-left: 5%;
-    margin-bottom: 5%; 
+    padding-bottom: 5%;
 }
 
-#vinPdf{
-    /* object-fit: contain; */
-    /* height: 100%;
-    width: 100%; */
+object{
+    margin: 0;
+    padding: 0;
 }
 
 .hide{
