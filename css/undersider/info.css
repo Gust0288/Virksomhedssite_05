@@ -79,8 +79,8 @@ main p{
     border-radius: 1.5vw;
     margin-bottom: 2vw;
     margin-top: 2vw;
-    border: double #efe2c6 3px;
-    /* border stling ikke endelig, måske ikke nødvendig */
+    /* border: double #efe2c6 3px; */
+    /* border stiling ikke endelig, måske ikke nødvendig */
 }
 
 main ul{
@@ -99,7 +99,6 @@ main ul li{
 #guide{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 2vw;
 }
 
 #information{
@@ -112,6 +111,10 @@ main ul li{
 }
 .info{
     width: 90%;
+}
+
+.info p{
+    margin-top: 4.5vw;
 }
 
 #map{

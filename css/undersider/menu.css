@@ -1,8 +1,36 @@
+@font-face {
+    font-family: "crimsonReg";
+    src: url(/fonts/crimson-text/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "crimsonBold";
+    src: url(/fonts/crimson-text/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondReg";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondItalic";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Italic.ttf);
+}
+
+@font-face {
+    font-family: "cormorantGaramondBold";
+    src: url(/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf);
+}
+
 body{
     background-image: url(/img/background_bar.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    /* min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto; */
 }
 
 main {
@@ -18,18 +46,25 @@ main {
 
 #udvalg{
     display: grid;
-    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
     gap: 4vw;
-    padding-top: 10vw;
+    /* padding-top: 10vw; */
     justify-content: center;
+
 
 }
 
-#udvalg a{
-    background-color: yellowgreen;
-    text-decoration: none;
+button{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    color: #efe2c6;
+    /* border: double #efe2c6 3px;
+    border-radius: 1.5vw; */
+    border: none;
+    border-radius: 1.5vw;
     text-align: center;
     font-size: 3.5vw;
+    cursor: pointer;
 }
 
 #pdf-holder{
@@ -39,7 +74,15 @@ main {
     width: 90%;
     margin-top: 5%;
     margin-left: 5%;
-    margin-bottom: 5%;
-    border-radius: 1%;
-    
+    margin-bottom: 5%; 
+}
+
+#vinPdf{
+    /* object-fit: contain; */
+    /* height: 100%;
+    width: 100%; */
+}
+
+.hide{
+    display: none;
 }
