@@ -111,9 +111,10 @@ video{
     grid-column: 3;
     width: 100%;
     padding-left: 3vw;
-   
+    
 
 }
+
 
 #filler1{
     display: grid;
@@ -259,9 +260,12 @@ main {
     padding-right: 1vw;
     font-family: "cormorantGaramondItalic";
 }
-#facebook{
-    /* margin-top: 10vw; */
-    
+
+#velkommen_tekst h1{
+    font-family: "crimsonReg";
+}
+#velkommen_tekst p{
+    font-size: 1.4vw;
 }
 #facebook img{
     width: 100%;
@@ -303,9 +307,6 @@ main {
     
 }
 
-#menu_index{
-   
-}
 #menu_index_tekst{
     text-align: center;
     color: #efe2c6;    
