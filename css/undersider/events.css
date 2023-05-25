@@ -83,10 +83,11 @@ main {
 #event_booking_tekst h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     font-weight: bold;
+    margin-bottom: 2vw;
 }
 #event_booking_tekst p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-    font-size: 1.2vw;
+    font-size: 1.6vw;
 }
 
 #div_form{
