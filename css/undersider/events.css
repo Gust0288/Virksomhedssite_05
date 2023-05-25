@@ -178,7 +178,7 @@ main {
     color: #efe2c6;}
 
 #form1{
-    margin-left: 3vw;
+    margin-left: 15vw;
 }
 
 #event_info{
@@ -215,6 +215,14 @@ main {
 #event_booking img{
     width: 100%;
 }
+
+#div-form{
+    max-width: 100%;
+}
+#form1{
+    margin-left: 3vw;
+}
+
 
 }
 
