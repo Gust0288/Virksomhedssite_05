@@ -79,10 +79,8 @@ button{
     padding-bottom: 5%;
 }
 
-object{
-    margin: 0;
-    padding: 0;
-}
+/* embed er skrevet direkte i html*/
+
 
 .hide{
     display: none;
