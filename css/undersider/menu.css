@@ -48,17 +48,15 @@ main {
     display: grid;
     grid-template-columns: 0.2fr 0.2fr 0.2fr;
     gap: 4vw;
-    /* padding-top: 10vw; */
+    padding-top: 2vw;
     justify-content: center;
-
 
 }
 
-button{
+#udvalg button{
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
     color: #efe2c6;
-    border: none;
     border-radius: 1.5vw;
     text-align: center;
     font-size: 3.5vw;
@@ -67,8 +65,11 @@ button{
     margin-bottom: 4vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    height: 7vw;
+    width: 18vw;
     font-family: "cormorantGaramondBold";
     font-size: 4vw;
+    border: double #efe2c6 3px;
 }
 
 #pdf-holder{
@@ -79,10 +80,15 @@ button{
     padding-bottom: 5%;
 }
 
-object{
-    margin: 0;
-    padding: 0;
+#pdfText{
+    color: #efe2c6;
+    text-align: center;
+    font-family: "crimsonReg";
+    font-size: 3vw;
 }
+
+/* embed er skrevet direkte i html*/
+
 
 .hide{
     display: none;

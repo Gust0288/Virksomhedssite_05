@@ -1,6 +1,7 @@
 const vin = document.querySelector("#vinKnap");
 const cocktails = document.querySelector("#cocktailsKnap");
 const snacks = document.querySelector("#snacksKnap");
+const pdf = document.querySelector("#pdfText");
 
 const vinPdf = document.querySelector("#vinPdf");
 const cocktailsPdf = document.querySelector("#cocktailsPdf");
@@ -16,6 +17,7 @@ const snacksPdf = document.querySelector("#snacksPdf");
 function vinMenu(){
     console.log("Lad os være dumme på vin");
     hideAll();
+    hideText();
 
     vin.removeEventListener("click", vinMenu);
 
@@ -28,6 +30,7 @@ function vinMenu(){
 function cocktailsMenu(){
     console.log("nu skal vi være rigtig fulde");
     hideAll();
+    hideText();
 
     cocktails.removeEventListener("click", cocktailsMenu);
 
@@ -40,6 +43,7 @@ function cocktailsMenu(){
 function snacksMenu(){
     console.log("var der nogen, der sagde mad");
     hideAll();
+    hideText();
 
     snacks.removeEventListener("click", snacksMenu)
 
@@ -53,4 +57,8 @@ function hideAll(){
     vinPdf.classList.add("hide");
     cocktailsPdf.classList.add("hide");
     snacksPdf.classList.add("hide");
+}
+
+function hideText(){
+    pdf.classList.add("hide");
 }
