@@ -366,11 +366,11 @@ main {
     left: 0;
     background-color: #efe2c6;
     transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transition: transform 0.8s ease;
   }
   
   #menu_index a:hover::before {
-    transform: scaleX(1);
+    transform: scaleX(1.4);
   }
 
   video{
