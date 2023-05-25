@@ -124,22 +124,29 @@ section{
     .grid1-2 p,h2{
         padding-left: 3vw;
         padding-right: 3vw;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
     }
 
     section p{
-        font-size: 1.1vw;
+        font-size: 1.3vw;
     }
 
     section h2{
-        margin-bottom: 3vw;
+        margin-bottom: 1.2vw;
+        margin-top: 1.2vw;
     }
 
     section p:last-child{
-        font-size: 1.9vw;
+        font-size: 1.8vw;
         padding-top: 1vw;
         padding-bottom: 1vw;
         margin-bottom: 0;
-        margin-top: 2.5vw;
+        margin-top: 1.4vw;
+    }
+
+    #PBA{
+        font-size: 1.1vw;
+        margin-bottom: 0;
     }
 
     h2, h1{
