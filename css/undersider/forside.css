@@ -310,12 +310,16 @@ main {
 #menu_index_tekst{
     text-align: center;
     color: #efe2c6;    
-    padding-top: 3vw;
+    padding-top: 0vw;
     font-family: "cormorantGaramondBold";
     text-decoration: none;
     font-family: "cormorantGaramondItalic";
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.1px);
+    border-radius: 1.5vw;
+    padding: 2vw;
+    font-size: 0.8vw;
 }
 #menu_index_tekst a{
     text-decoration: none;
@@ -323,7 +327,7 @@ main {
     color: #efe2c6;    
     padding: 0.5vw;
     border-radius: 15px;
-    font-size: 40px;
+    font-size: 3vw;
 }
 #menu_index_tekst a:hover{
     color: #efe2c6;    
