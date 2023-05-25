@@ -390,7 +390,12 @@ video{
     margin-top: 2vw;
     margin-bottom: 10vw;
 }
-
+#menu_index_tekst{
+    font-size: 3vw;
+}
+#menu_index_tekst a{
+    font-size: 10vw;
+}
 #facebook img{
     margin-bottom: 5vw;
 }
@@ -402,6 +407,10 @@ video{
 .fb-page{
     width: 100%;
     padding-left: 0vw;
+}
+
+#velkommen_tekst p{
+    font-size: 3.5vw;
 }
 
 
