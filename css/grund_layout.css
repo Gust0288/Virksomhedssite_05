@@ -167,12 +167,13 @@ footer #h3_2{
   .toggle-btn {
     display: flex;
     position: relative;
-    left: 46.3vw;
     top: 3vw;
     width: 7vw;
     height: auto;
     background-color: transparent;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
    
     
     /* Vis knappen, når viewporten maksimalt er 600px */
