@@ -83,9 +83,7 @@ nav {
     font-family: "cormorantGaramondBold";
   }
   
-  /* nav ul li a:hover {
-    color: #efe2c6;
-  } */
+ 
   
   nav ul li a::before {
     content: "";
@@ -103,7 +101,9 @@ nav {
     transform: scaleX(1);
   }
     
-
+ /* nav ul li a:hover {
+    color: #efe2c6;
+  } */
   
 /* nav */
 
